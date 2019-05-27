@@ -98,7 +98,7 @@ div.categoryImg p{
 }
 div.categoryImg i{
   position: absolute;
-  bottom: 50px;
+  bottom: 55px;
   right: 15px;
   font-size: 18px;
   -webkit-animation: 1.5s rightPadding infinite;
