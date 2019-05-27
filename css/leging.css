@@ -1,3 +1,29 @@
-main.leging article{
+main.leging article.description{
+  margin: 20px;
+}
+main.leging article.description h1{
+  font-size: 20px;
+  padding-left: 10px;
+  color: rgb(108, 205, 105);
+  border-bottom: 1px dotted rgb(108, 205, 105);
+  padding-bottom: 2px;
+}
+main.leging article.description p{
+  font-size: 14px;
+}
 
+main.leging article.articleImage img{
+  width: 100%;
+  box-sizing: border-box;
+}
+
+main.leging article.price{
+  margin: 20px;
+}
+main.leging article.price h2{
+  font-size: 18px;
+  padding-left: 10px;
+  color: #fdcb6e;
+  border-bottom: 1px dotted #fdcb6e;
+  padding-bottom: 2px;
 }
