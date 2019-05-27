@@ -1,0 +1,110 @@
+main.homeMainTag{
+  margin: 20px;
+  color: rgb(108, 205, 105);
+}
+
+
+main.homeMainTag article h1{
+  font-size: 20px;
+  padding-left: 5px;
+}
+main.homeMainTag article > p{
+  border: 1px solid white;
+  color: white;
+  border-radius: 5px;
+  padding: 8px;
+  font-size: 14px;
+}
+main.homeMainTag article p span{
+  -webkit-animation: 0.8s spanColor infinite;
+  -ms-animation: 0.8s spanColor infinite;
+  -moz-animation: 0.8s spanColor infinite;
+  -o-animation: 0.8s spanColor infinite;
+  animation: 0.8s spanColor infinite;
+}
+-webkit-@keyframes spanColor {
+  0%{color: white;}
+  50%{color: black;}
+  100%{color: white;}
+}
+-ms-@keyframes spanColor {
+  0%{color: white;}
+  50%{color: black;}
+  100%{color: white;}
+}
+-moz-@keyframes spanColor {
+  0%{color: white;}
+  50%{color: black;}
+  100%{color: white;}
+}
+-o-@keyframes spanColor {
+  0%{color: white;}
+  50%{color: black;}
+  100%{color: white;}
+}
+@keyframes spanColor {
+  0%{color: white;}
+  50%{color: black;}
+  100%{color: white;}
+}
+
+
+article.categoryImgs{
+  border: 1px solid white;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+article.categoryImgs a{
+  color: white;
+}
+div.imageDark{
+  position: relative;
+}
+div.imageDark::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.3);
+  width: 100%;
+  margin: auto;
+  border-radius: 5px;
+}
+#full{
+  background-image: url('../images/mainCover1.jpg');
+}
+#leging{
+  background-image: url('../images/mainCover2.jpg');
+}
+div.categoryImg{
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 130px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  padding: 20px;
+}
+div.categoryImg h2{
+  position: absolute;
+  margin: 0;
+}
+div.categoryImg p{
+  position: absolute;
+  margin-top: 33px;
+  font-size: 13px;
+}
+div.categoryImg i{
+  position: absolute;
+  bottom: 50px;
+  right: 15px;
+  font-size: 18px;
+  animation: 1.5s rightPadding infinite;
+}
+@keyframes rightPadding {
+  0%{padding-right: 0;}
+  50%{padding-right: 10px;}
+  100%{padding-right: 0;}
+}
