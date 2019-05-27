@@ -101,7 +101,31 @@ div.categoryImg i{
   bottom: 50px;
   right: 15px;
   font-size: 18px;
+  -webkit-animation: 1.5s rightPadding infinite;
+  -ms-animation: 1.5s rightPadding infinite;
+  -moz-animation: 1.5s rightPadding infinite;
+  -o-animation: 1.5s rightPadding infinite;
   animation: 1.5s rightPadding infinite;
+}
+-webkit-@keyframes rightPadding {
+  0%{padding-right: 0;}
+  50%{padding-right: 10px;}
+  100%{padding-right: 0;}
+}
+-ms-@keyframes rightPadding {
+  0%{padding-right: 0;}
+  50%{padding-right: 10px;}
+  100%{padding-right: 0;}
+}
+-moz-@keyframes rightPadding {
+  0%{padding-right: 0;}
+  50%{padding-right: 10px;}
+  100%{padding-right: 0;}
+}
+-o-@keyframes rightPadding {
+  0%{padding-right: 0;}
+  50%{padding-right: 10px;}
+  100%{padding-right: 0;}
 }
 @keyframes rightPadding {
   0%{padding-right: 0;}
