@@ -38,6 +38,7 @@ footer div.callFixed a i{
   color: #00b894;
   background-color: white;
   padding: 10px;
+  box-shadow: 0 0 10px;
   border-radius: 30px;
   margin-right: 20px;
   -webkit-animation: callColorChange 1.5s infinite;
